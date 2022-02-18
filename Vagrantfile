@@ -24,6 +24,8 @@ Vagrant.configure("2") do |config|
 
             node.vm.provider :virtualbox do |vb|
                 vb.gui = true
+                vb.customize ["modifyvm", :id, "--nictype1", "Am79C973"]
+                vb.customize ["modifyvm", :id, "--nictype2", "Am79C973"]
                 vb.customize ["modifyvm", :id, "--memory", 4096]
                 vb.customize ["modifyvm", :id, "--cpus", 4]
                 vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
