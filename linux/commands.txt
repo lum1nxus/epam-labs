@@ -1,0 +1,11 @@
+man <command> - desribes specified command
+apropos <word> - helps to find out necessary command without knowing it's name
+less - similar to cat, but only one page at a time 
+    less file.txt
+    /word - to search required text
+tail - last 10 lines of file
+grep - search a file or specific word or a pattern(case sensitive)
+wc - counts number of words in a given file
+    wc -l <file> - to find ammount of lines in file
+open settings ctrl + home
+
