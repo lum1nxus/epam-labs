@@ -9,5 +9,8 @@ find <file> - use to search files
 wc - counts number of words in a given file
     wc -l <file> - to find ammount of lines in file
 scp - allows secure copying data between remote and local machines
+free - 
+top -
+df
 open settings ctrl + home
 
