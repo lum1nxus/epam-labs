@@ -3,10 +3,14 @@ apropos <word> - helps to find out necessary command without knowing it's name
 less - similar to cat, but only one page at a time 
     less file.txt
     /word - to search required text
-tail - last 10 lines of file
+tail - last 10 lines of file / head is opposite 
 grep - search a file or specific word or a pattern(case sensitive)
 find <file> - use to search files 
 wc - counts number of words in a given file
     wc -l <file> - to find ammount of lines in file
+scp - allows secure copying data between remote and local machines
+free - 
+top -
+df
 open settings ctrl + home
 

@@ -19,7 +19,9 @@ Vagrant.configure("2") do |config|
             # if machine[:hostname] == "MasterServer" then
             #     node.vm.network "forwarded_port", guest: 8080, host: 8080
             # end
-            # node.vm.provision :shell, inline: ""
+            node.vm.provision :shell, inline: "sudo apt-get update
+            sudo apt-get install virtualbox-guest-x11
+            sudo apt-get install upgrade"
 			node.vm.provision :shell, path: machine[:script]
 
             node.vm.provider :virtualbox do |vb|

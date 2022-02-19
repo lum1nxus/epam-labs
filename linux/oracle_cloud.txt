@@ -1,0 +1,5 @@
+Oracle cloud virtual machines work through NAT.
+#-Add ingress rule in security list(0.0.0.0/0 80port)
+#-Configure iptables
+-Connect via bash using downloaded private key file
+-To connect via Putty use Puttygen to convert .key format to .ppk and then use SSH <username>@<ip_adress> 
