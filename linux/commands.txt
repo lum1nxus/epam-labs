@@ -9,8 +9,32 @@ find <file> - use to search files
 wc - counts number of words in a given file
     wc -l <file> - to find ammount of lines in file
 scp - allows secure copying data between remote and local machines
-free - 
-top -
-df
+top - shows process table with CPU load 
+______________________________________________________________________
+chattr - sets special file attributes to prevent accidental deletion or modification of file/directory even if you are root
+lsattr - shows setted attributes
+Acess Control List -  fine-grained control of files
+______________________________________________________________________
+fdisk -l - extended version of parted 
+free - shows free space
+df -h - shows filesystems, their mount point and size (only mounted)
+lsblk - shows information about disks and partitions, mount points
+parted -l - shows information about disks and partitions, sizes, mounted points
+blkid - gives uuid of partition
+vgcreate - creates volume group
+vgs \vgdisplay - shows information about volume groups
+pvcreate - create physical volume
+pvs \ pvdisplay - shows information about physical volumes
+lvcreate - creates logical volumes
+lvs \ lvdisplay - shows information about logical volumes
+mkfs.<filesystem> <logicalvolumepath> - creates filesystem for logical voulme
+mount - mounts volume to the file system tree 
+lvextend \ vgextend - extends lv/vg by free space
+resize 
+______________________________________________________________________
+last - shows recent logins
+
+
+______________________________________________________________________
 open settings ctrl + home
 
