@@ -9,7 +9,7 @@ find <file> - use to search files
 wc - counts number of words in a given file
     wc -l <file> - to find ammount of lines in file
 scp - allows secure copying data between remote and local machines
-top - shows process table with CPU load 
+last - shows recent logins
 ______________________________________________________________________
 chattr - sets special file attributes to prevent accidental deletion or modification of file/directory even if you are root
 lsattr - shows setted attributes
@@ -32,9 +32,18 @@ mount - mounts volume to the file system tree
 lvextend \ vgextend - extends lv/vg by free space
 resize 
 ______________________________________________________________________
-last - shows recent logins
-
-
+printenv - prints all environmental variables
+export - creates environmental variable
+alias <alias_name>=<command> - creates alternative name for command. If you want to make your aliases constant, you should add them to ~/.bashrc file and preload them by source command
+source ~/.bashrc 
 ______________________________________________________________________
+free - shows information about operating memory
+ps - shows a snapshot of running process(interaction available)
+top - shows dynamically updating list of running process
+stress - allows to test memory, cpu etc.
+uptime / watch uptime - shows cpu load 
+
+
+
 open settings ctrl + home
 
